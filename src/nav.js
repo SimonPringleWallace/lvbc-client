@@ -23,7 +23,7 @@ const NavBar = () => {
       <NavDropdown eventKey={3} title="Volunteer" id="basic-nav-dropdown">
         <MenuItem eventKey={3.1}>About Volunteering</MenuItem>
         <MenuItem divider />
-        <MenuItem eventKey={3.3}>Find a Training</MenuItem>
+        <MenuItem eventKey={3.3}>Attend an Orientation</MenuItem>
       </NavDropdown>
     </Nav>
     <Nav pullRight>
@@ -35,7 +35,7 @@ const NavBar = () => {
       </NavItem>
     </Nav>
   </Navbar.Collapse>
-</Navbar>;
+</Navbar>
       </React.Fragment>
     );
 }
