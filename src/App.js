@@ -3,6 +3,7 @@ import './App.css';
 import MyCarousel from './carousel'
 import NavBar from './nav'
 import {HomePageAbout} from './homepageInfo'
+import {BrowserRoutes} from './browserRoutes'
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <MyCarousel />
           <HomePageAbout />
         </div>
+        <BrowserRoutes />
       </div>
     );
   }
