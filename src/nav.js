@@ -1,25 +1,24 @@
 import React, { Component } from 'react';
-import './App.css';
 import {Nav, Navbar, NavItem, NavDropdown, MenuItem} from 'react-bootstrap'
-
+import './nav.css'
 const NavBar = () => {
     return (
-      <React.Fragment>
+      <div className='nav-class'>
       <Navbar inverse collapseOnSelect>
   <Navbar.Header>
     <Navbar.Brand>
-      <a href="#brand">Literacy Voluneteers <br/>of Berkshire County</a>
+      <a href="#brand"><img className='logo' alt='lit vol logo' src={require('./images/litvol.jpg')}/> </a>
     </Navbar.Brand>
     <Navbar.Toggle />
   </Navbar.Header>
   <Navbar.Collapse>
     <Nav>
-      <NavItem eventKey={1} href="#">
+      <NavItem animateOut='true' eventKey={1} href="#">
         About Us
       </NavItem>
       <NavItem eventKey={2} href="#">
         Events
-      </NavItem>
+      </NavItem >
       <NavDropdown eventKey={3} title="Volunteer" id="basic-nav-dropdown">
         <MenuItem eventKey={3.1}>About Volunteering</MenuItem>
         <MenuItem divider />
@@ -28,15 +27,15 @@ const NavBar = () => {
     </Nav>
     <Nav pullRight>
       <NavItem eventKey={1} href="#">
-        Link Right
+        Donate
       </NavItem>
       <NavItem eventKey={2} href="#">
-        Link Right
+        Contact Us
       </NavItem>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
-      </React.Fragment>
+      </div>
     );
 }
 

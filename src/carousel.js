@@ -8,23 +8,24 @@ class MyCarousel extends Component {
       <div className='carousel'>
       <Carousel
       interval={6000}
+      pauseOnHover={false}
       >
         <Carousel.Item>
-          <img width={520} height={250} alt="520x250" src={require('./images/lvbc-1.jpg')} />
+          <img className='caro-image' alt="1000x500" src={require('./images/lvbc-1.jpg')} />
           <Carousel.Caption>
             <h3>Learn to Read</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img width={520} height={250} alt="520x250" src={require('./images/lvbc-2.jpg')} />
+          <img className='caro-image' alt="1000x500" src={require('./images/lvbc-2.jpg')} />
           <Carousel.Caption>
             <h3>Help People Learn How to Read</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img width={520} height={250} alt="520x250" src={require('./images/lvbc-3.jpg')} />
+          <img className='caro-image' alt="1000x500" src={require('./images/lvbc-3.jpg')} />
           <Carousel.Caption>
             <h3>Learn to Help People Learn How to Read</h3>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>

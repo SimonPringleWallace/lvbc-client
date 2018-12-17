@@ -1,4 +1,14 @@
 .carousel {
-  height:250px;
-  width:520px;
+  margin: 0 auto;
+  width:100%;
+}
+.carousel-flex{
+  margin: 0 auto;
+}
+.slide{
+  width:100%;
+}
+.caro-image {
+  margin: 0 auto;
+  width:100%;
 }
