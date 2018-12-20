@@ -8,7 +8,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 const appJSX = (
-  <BrowserRouter>
+  <BrowserRouter basename='/lvbc-client'>
   <App />
   </BrowserRouter>
 )
