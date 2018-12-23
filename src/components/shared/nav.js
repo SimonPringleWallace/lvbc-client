@@ -9,32 +9,61 @@ const NavBar = () => {
       <div className='nav-class'>
       <Navbar inverse collapseOnSelect>
   <Navbar.Header>
+
     <Navbar.Brand>
-      <a href="/"><img className='logo' alt='lit vol logo' src={require('../../images/litvol.jpg')}/> </a>
+    <Link exact to='/about'>
+    <img className='logo' alt='lit vol logo' src={require('../../images/litvol.jpg')}/>
+    </Link>
     </Navbar.Brand>
+
     <Navbar.Toggle />
   </Navbar.Header>
   <Navbar.Collapse>
     <Nav>
-      <NavItem animateOut='true' eventKey={1} href="/about">
-        About Us
+      <NavItem animateOut='true' eventKey={1} >
+        <Link exact to='/about'>
+          About Us
+        </Link>
       </NavItem>
-      <NavItem eventKey={2} href="/events">
-        Events
-      </NavItem >
+
+      <NavItem eventKey={2} >
+        <Link exact to='/events'>
+          Events
+        </Link>
+      </NavItem>
+
       <NavDropdown eventKey={3} title="Volunteer" id="basic-nav-dropdown">
-        <MenuItem eventKey={3.1} href="/volunteer">About Volunteering</MenuItem>
+
+        <MenuItem eventKey={3.1}>
+          <Link exact to='/about-volunteering'>
+            About Volunteering
+          </Link>
+        </MenuItem>
+
         <MenuItem divider />
-        <MenuItem eventKey={3.3} href="/orientations">Attend an Orientation</MenuItem>
+
+        <MenuItem eventKey={3.3}>
+          <Link exact to='/orientation'>
+            Attend an Orientation
+          </Link>
+        </MenuItem>
       </NavDropdown>
     </Nav>
+
     <Nav pullRight>
-      <NavItem eventKey={1} href="/donate">
-        Donate
+
+      <NavItem eventKey={4} >
+        <Link exact to='/donate'>
+          Donate
+        </Link>
       </NavItem>
-      <NavItem eventKey={2} href="donate">
-        Contact Us
+
+      <NavItem eventKey={5} >
+        <Link exact to='/contact'>
+          Contact Us
+        </Link>
       </NavItem>
+
     </Nav>
   </Navbar.Collapse>
 </Navbar>
