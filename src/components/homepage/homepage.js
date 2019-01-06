@@ -1,8 +1,8 @@
 import React from 'react'
-import NavBar from '../shared/nav'
-import MyCarousel from './carousel'
+import {Header} from '../shared/header'
+// import MyCarousel from './carousel'
 import {HomePageAbout} from './homepageInfo'
-import {PostPreview} from './posts'
+// import {PostPreview} from './posts'
 import './homepageInfo'
 
 class Homepage extends React.Component {
@@ -15,37 +15,35 @@ class Homepage extends React.Component {
         contents:[]
     }
   }
-  componentDidMount() {
-    fetch('https://www.lvobc.org/wp-json/wp/v2/posts')
-    .then(res => res.json())
-    // .then(res => console.log(res))
-    .then(res => this.setState({response: res}))
-    // .then(res => this.setState({titles: res.map(post => post.title.rendered),
-    //                             excerpts:res.map(post => post.excerpt.rendered),
-    //                             contents: res.map(post => post.content.rendered)
-    //                           })
-    //                         )
-  }
+  // // make api call to WP for data
+  // componentDidMount() {
+  //   fetch('https://www.lvobc.org/wp-json/wp/v2/posts')
+  //   .then(res => res.json())
+  //   // .then(res => console.log(res))
+  //   .then(res => this.setState({response: res}))
+  //   // .then(res => this.setState({titles: res.map(post => post.title.rendered),
+  //   //                             excerpts:res.map(post => post.excerpt.rendered),
+  //   //                             contents: res.map(post => post.content.rendered)
+  //   //                           })
+  //   //                         )
+  // }
 
-  postGenerator = () => {
-    return (
-      this.state.response.map(post =>
-        <PostPreview
-        title = {post.title.rendered}
-        excerpt = {post.excerpt.rendered}
-        />
-    )
-   )}
+// generate posts based off of the data recieved in componentDidMount
+  // postGenerator = () => {
+  //   return (
+  //     this.state.response.map(post =>
+  //       <PostPreview
+  //       title = {post.title.rendered}
+  //       excerpt = {post.excerpt.rendered}
+  //       />
+  //   )
+  //  )}
    render () {
      console.log(this.state)
      return(
        <React.Fragment>
-       <NavBar />
-       <div className='carousel-flex'>
-       <MyCarousel />
+       <Header />
        <HomePageAbout />
-       </div>
-       <div>{this.postGenerator()}</div>
        </React.Fragment>
      )
    }

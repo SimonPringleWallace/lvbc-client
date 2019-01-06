@@ -1,0 +1,12 @@
+.logo {
+  height: 76px;
+  width: 372px;
+  background-image: url('../../images/Logo-horizontal-red.png');
+  background-size: contain;
+  padding-bottom: 20px;
+}
+.header-flex{
+  padding-top:20px;
+  background-color: yellow;
+  margin-bottom: 100px;
+}

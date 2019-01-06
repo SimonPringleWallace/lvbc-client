@@ -9,13 +9,6 @@ const NavBar = () => {
       <div className='nav-class'>
       <Navbar inverse collapseOnSelect>
   <Navbar.Header>
-
-    <Navbar.Brand>
-    <Link exact to='/about'>
-    <img className='logo' alt='lit vol logo' src={require('../../images/litvol.jpg')}/>
-    </Link>
-    </Navbar.Brand>
-
     <Navbar.Toggle />
   </Navbar.Header>
   <Navbar.Collapse>
