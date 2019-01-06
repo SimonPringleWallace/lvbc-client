@@ -1,0 +1,6 @@
+.hero-image{
+  background-image: url('../../images/hero-book.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}

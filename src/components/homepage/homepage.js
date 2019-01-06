@@ -4,6 +4,7 @@ import {Header} from '../shared/header'
 import {HomePageAbout} from './homepageInfo'
 // import {PostPreview} from './posts'
 import './homepageInfo'
+import './homepage.css'
 
 class Homepage extends React.Component {
   constructor() {
@@ -42,7 +43,9 @@ class Homepage extends React.Component {
      console.log(this.state)
      return(
        <React.Fragment>
+       <div className='hero-image'>
        <Header />
+       </div>
        <HomePageAbout />
        </React.Fragment>
      )
