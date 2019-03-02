@@ -5,7 +5,7 @@ export const PostPreview = ({title, excerpt}) => {
   return(
     <div>
       <h3>{title}</h3>
-      <p>{excerpt}</p>
+      {excerpt}
     </div>
   )
 }

@@ -1,67 +1,64 @@
 import React from 'react';
-import {Link}  from 'react-router-dom'
-import {Nav, Navbar, NavItem, NavDropdown, MenuItem} from 'react-bootstrap'
+import { Link }  from 'react-router-dom';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import './nav.css'
 
 
-const NavBar = () => {
+class NavBar extends React.Component {
+
+  handleItemClick = () => (
+    console.log('foo')
+  )
+
+  render () {
     return (
-      <div className='nav-class'>
-      <Navbar inverse collapseOnSelect>
-  <Navbar.Header>
-    <Navbar.Toggle />
-  </Navbar.Header>
-  <Navbar.Collapse>
-    <Nav>
-      <NavItem animateOut='true' eventKey={1} >
-        <Link exact to='/about'>
-          About Us
-        </Link>
-      </NavItem>
-
-      <NavItem eventKey={2} >
-        <Link exact to='/events'>
-          Events
-        </Link>
-      </NavItem>
-
-      <NavDropdown eventKey={3} title="Volunteer" id="basic-nav-dropdown">
-
-        <MenuItem eventKey={3.1}>
-          <Link exact to='/about-volunteering'>
-            About Volunteering
-          </Link>
-        </MenuItem>
-
-        <MenuItem divider />
-
-        <MenuItem eventKey={3.3}>
-          <Link exact to='/orientation'>
-            Attend an Orientation
-          </Link>
-        </MenuItem>
-      </NavDropdown>
-    </Nav>
-
-    <Nav pullRight>
-
-      <NavItem eventKey={4} >
-        <Link exact to='/donate'>
-          Donate
-        </Link>
-      </NavItem>
-
-      <NavItem eventKey={5} >
-        <Link exact to='/contact'>
-          Contact Us
-        </Link>
-      </NavItem>
-
-    </Nav>
-  </Navbar.Collapse>
-</Navbar>
+      <div className='nav-wrapper'>
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
+          <Navbar.Brand>
+            {/*<Link exact to='/'>*/}
+              <img src={require('./../../images/Logo-horizontal-red.png')}/>
+            {/*</Link>*/}
+          </Navbar.Brand>
+          <div className='menu'>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav>
+            <Nav.Link>
+              <Link exact to='/about'>
+                About Us
+                </Link>
+              </Nav.Link>
+              <NavDropdown title="Volunteer" id="collasible-nav-dropdown">
+              <NavDropdown.Item>Find an Orientation</NavDropdown.Item>
+              <NavDropdown.Item>Meet our Tutors</NavDropdown.Item>
+              <NavDropdown.Item>About Tutoring with LVBC</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item>Our Students</NavDropdown.Item>
+              </NavDropdown>
+              <Nav.Link>
+                <Link exact to='/events'>
+                  Events
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link exact to='/contact'>
+                 Contact Us
+                 </Link>
+              </Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link>
+            <Link exact to='/donate'>
+             Donate
+             </Link>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+        </div>
+        </Navbar>
       </div>
     );
-}
+   }
+  }
 
 export default NavBar;

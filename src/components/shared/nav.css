@@ -1,6 +1,35 @@
-.nav-class{
-    margin-top: 20px;
+.nav-wrapper {
+  background-color: white;
 }
-.navbar {
-  margin: 0 auto;
+
+.navbar-expand-lg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.donate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  height:100px;
+  width:250px;
+  font-size: 30px
+}
+
+.nav-link{
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+
+.navbar-brand{
+  width: 25%;
+  height:25%;
+}
+
+.navbar-brand>img{
+  width: 100%;
+  height: 100%;
 }
