@@ -19,6 +19,7 @@
 .env.production.local
 .client-notes
 .env
+.jshintrc
 
 npm-debug.log*
 yarn-debug.log*
