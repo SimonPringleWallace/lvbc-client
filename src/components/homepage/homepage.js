@@ -4,6 +4,7 @@ import {HomePageAbout} from './homepageInfo';
 import {PostPreview} from './posts';
 import './homepageInfo';
 import './homepage.css';
+import { CounterBlock } from '../shared';
 
 class Homepage extends React.Component {
   constructor() {
@@ -31,14 +32,15 @@ class Homepage extends React.Component {
    render () {
      return(
        <React.Fragment>
-       <div className='hero-image'>
        <NavBar />
+       <div className='hero-image'>
        </div>
+       <CounterBlock/>
        <HomePageAbout />
        {this.postGenerator()}
        </React.Fragment>
-     )
-   }
+     );
+   };
 }
 
 export default Homepage

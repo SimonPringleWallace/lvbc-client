@@ -5,7 +5,6 @@ import {BrowserRoutes} from './components/shared/browserRoutes'
 class App extends Component {
 
   render() {
-    console.log(this.state)
 
     return (
       <div className="App">
