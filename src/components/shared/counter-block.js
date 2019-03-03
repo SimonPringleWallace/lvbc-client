@@ -8,7 +8,7 @@ export const CounterBlock = () => {
     <HomeScreenCounter
     start={0}
     end={2567}
-    duration={4}
+    duration={6}
     delay={2}
     text={'Students'}
     />

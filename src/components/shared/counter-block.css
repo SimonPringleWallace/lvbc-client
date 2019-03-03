@@ -1,18 +1,20 @@
 .counter{
-  margin: 75px;
+  margin: 30px;
   font-size: 100px;
-  font-family: 'Eczar';
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 800;
-  color:#313639;
+  color:#7C0A02;
 }
 .counter-text{
-  font-size:40px;
+  font-size:30px;
+  font-weight: 200;
+  margin-top: -30px;
+  color:rgba(124,10,2,.5)
 }
 .counter-block{
   margin-bottom: 200px;
-  margin-top:-475px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   padding: 0 40px;
 }

@@ -1,6 +1,23 @@
 .hero-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url('../../images/hero-book.jpg');
   background-size: cover;
   background-position: center;
-  height: 600px;
+  height: 650px;
+}
+
+.hero-image>h3{
+  font-family: 'Eczar';
+  font-size: 50px;
+  letter-spacing: 2px;
+  color:rgb(64,64,64);
+  margin-top: -80px;
+  font-style: italic;
+}
+.reading {
+  background-image: url('../../images/adult-reader-40.jpg');
+  background-size: cover;
+  background-position: center;
 }

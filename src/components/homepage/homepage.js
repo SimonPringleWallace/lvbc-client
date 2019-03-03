@@ -32,12 +32,15 @@ class Homepage extends React.Component {
    render () {
      return(
        <React.Fragment>
-       <NavBar />
-       <div className='hero-image'>
-       </div>
-       <CounterBlock/>
-       <HomePageAbout />
-       {this.postGenerator()}
+         <NavBar />
+         <div className='hero-image'>
+         <h3>Literacy Volunteers of Berkshire County</h3>
+         </div>
+         <div className='reading'>
+         <CounterBlock/>
+         <HomePageAbout />
+         </div>
+         {this.postGenerator()}
        </React.Fragment>
      );
    };
