@@ -1,11 +1,7 @@
 import React from 'react';
 import './homepageInfo.css';
 import { Button  } from 'react-bootstrap';
-import history from '../shared/history';
-
-const handleClick = () => {
-  history.push('/about');
-}
+import { Link } from 'react-router-dom';
 
 export const HomePageAbout = () => {
   return (
@@ -21,12 +17,14 @@ export const HomePageAbout = () => {
     pace, using materials of importance or of interest to them.
     </p>
     <div className='button-container'>
+
+      <Link exact to='/about'>
       <Button
       variant={'outline-info'}
-      onClick={handleClick}
       bsPrefix='more-button'>
       Read More
       </Button>
+      </Link>
     </div>
 </div>
   )

@@ -1,16 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {Router} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 import App from './App';
-import history from './components/shared/history';
 
 const appJSX = (
-  <Router history={history}
-  basename='/lvbc-client'
+  <BrowserRouter
+  // basename='/lvbc-client'
   >
   <App />
-  </Router>
+  </BrowserRouter>
 )
 
 ReactDOM.render(appJSX, document.getElementById('root'));
