@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {BrowserRouter} from 'react-router-dom';
+import {Router} from 'react-router-dom';
 import App from './App';
 
 const appJSX = (
-  <BrowserRouter
+  <Router
   // basename='/lvbc-client'
   >
   <App />
-  </BrowserRouter>
+  </Router>
 )
 
 ReactDOM.render(appJSX, document.getElementById('root'));
