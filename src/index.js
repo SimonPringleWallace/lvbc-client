@@ -7,7 +7,7 @@ import history from './components/shared/history';
 
 const appJSX = (
   <Router history={history}
-  // basename='/lvbc-client'
+  basename='/lvbc-client'
   >
   <App />
   </Router>
