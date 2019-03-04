@@ -6,7 +6,7 @@ import App from './App';
 
 const appJSX = (
   <BrowserRouter
-  // basename='/lvbc-client'
+  basename='/lvbc-client'
   >
   <App />
   </BrowserRouter>
