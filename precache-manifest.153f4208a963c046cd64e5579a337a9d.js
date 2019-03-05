@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/lvbc-client/static/js/runtime~main.5ae0f865.js"
   },
   {
-    "revision": "1617a6d84020c368d034",
-    "url": "/lvbc-client/static/js/main.1617a6d8.chunk.js"
+    "revision": "86e7d7649675f836e528",
+    "url": "/lvbc-client/static/js/main.86e7d764.chunk.js"
   },
   {
     "revision": "180c997d396e4dd34ff5",
     "url": "/lvbc-client/static/js/1.180c997d.chunk.js"
   },
   {
-    "revision": "1617a6d84020c368d034",
-    "url": "/lvbc-client/static/css/main.68e7d01c.chunk.css"
+    "revision": "86e7d7649675f836e528",
+    "url": "/lvbc-client/static/css/main.c7db4246.chunk.css"
   },
   {
-    "revision": "45f4507eaf5f53c40269a6f9f8db4a40",
+    "revision": "391c910de48d01a7014fe12583464117",
     "url": "/lvbc-client/index.html"
   }
 ];
