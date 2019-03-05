@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link }  from 'react-router-dom';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import './nav.css'
 
 
@@ -12,14 +12,12 @@ class NavBar extends React.Component {
 
   render () {
     return (
-      <div className='nav-wrapper'>
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
           <Navbar.Brand>
-            {/*<Link exact to='/'>*/}
-              <img src={require('./../../images/Logo-horizontal-red.png')}/>
-            {/*</Link>*/}
+              {/*<Link exact to='/'>*/}
+                <img src={require('./../../images/Logo-horizontal-red.png')}/>
+              {/*</Link>*/}
           </Navbar.Brand>
-          <div className='menu'>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
@@ -54,9 +52,7 @@ class NavBar extends React.Component {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        </div>
         </Navbar>
-      </div>
     );
    }
   }

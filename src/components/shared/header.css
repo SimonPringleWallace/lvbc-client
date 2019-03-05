@@ -1,11 +1,11 @@
-.logo {
-  height: 76px;
-  width: 372px;
-  background-image: url('../../images/Logo-horizontal-red.png');
-  background-size: contain;
-  padding-bottom: 20px;
-}
+
 .header-flex{
   padding-top:20px;
   margin-bottom: 100px;
+}
+
+@media(max-width: 400px){
+  .header-flex{
+    margin-bottom: 60px;
+  }
 }

@@ -18,3 +18,14 @@
   justify-content: space-between;
   padding: 0 40px;
 }
+
+@media(max-width: 400px){
+  .counter-text{
+    font-size: 20px;
+    margin-top: -25px;
+  }
+  .counter{
+    margin:25px;
+    font-size: 75px;
+  }
+}

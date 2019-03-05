@@ -5,10 +5,7 @@ import './header.css'
 export const Header = () => {
   return(
     <div className='header-flex'>
-      <div className='logo'></div>
-      <div className='nav-bar'>
         <NavBar />
-      </div>
     </div>
 
   )

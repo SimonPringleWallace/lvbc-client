@@ -40,3 +40,22 @@
   transition: .5s;
   margin-top:-10px;
 }
+
+@media(max-width: 800px){
+  .homepage-about{
+    padding: 0 100px;
+  }
+}
+
+@media(max-width: 400px){
+  .homepage-about{
+    padding: 0 30px;
+  }
+  .homepage-about>h2{
+    font-size: 30px;
+  }
+  .homepage-about>p{
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
