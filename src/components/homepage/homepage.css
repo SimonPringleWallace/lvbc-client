@@ -1,7 +1,9 @@
 .hero-image{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Eczar';
   background-image: url('../../images/hero-book.jpg');
   background-size: cover;
   background-position: center;
@@ -9,11 +11,14 @@
 }
 
 .hero-image>h3{
-  font-family: 'Eczar';
   font-size: 50px;
   letter-spacing: 2px;
   color:rgb(64,64,64);
   margin-top: -80px;
+  font-style: italic;
+}
+.hero-image>h5{
+  font-size:35px;
   font-style: italic;
 }
 .reading {
@@ -26,5 +31,8 @@
   .hero-image>h3{
     font-size: 35px;
     padding: 0 20px;
+  }
+  .hero-image>h5{
+    font-size:30px;
   }
 }

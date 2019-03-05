@@ -14,10 +14,12 @@ class NavBar extends React.Component {
     return (
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
           <Navbar.Brand>
+          {/*adding link effects styling*/}
               {/*<Link exact to='/'>*/}
                 <img src={require('./../../images/Logo-horizontal-red.png')}/>
               {/*</Link>*/}
           </Navbar.Brand>
+          {/*wrapping the below in a div to space the menu properly effects styling*/}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>

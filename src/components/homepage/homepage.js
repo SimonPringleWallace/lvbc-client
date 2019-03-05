@@ -34,7 +34,8 @@ class Homepage extends React.Component {
        <React.Fragment>
          <NavBar />
          <div className='hero-image'>
-         <h3>Literacy Volunteers of Berkshire County</h3>
+         <h3>Literacy Volunteers</h3>
+         <h5>of Berkshire County</h5>
          </div>
          <div className='reading'>
          <CounterBlock/>
