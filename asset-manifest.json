@@ -1,15 +1,15 @@
 {
-  "main.css": "/lvbc-client/static/css/main.c1db9377.chunk.css",
-  "main.js": "/lvbc-client/static/js/main.c40f9e03.chunk.js",
-  "main.js.map": "/lvbc-client/static/js/main.c40f9e03.chunk.js.map",
+  "main.css": "/lvbc-client/static/css/main.20cea998.chunk.css",
+  "main.js": "/lvbc-client/static/js/main.6970c39c.chunk.js",
+  "main.js.map": "/lvbc-client/static/js/main.6970c39c.chunk.js.map",
   "static/js/1.180c997d.chunk.js": "/lvbc-client/static/js/1.180c997d.chunk.js",
   "static/js/1.180c997d.chunk.js.map": "/lvbc-client/static/js/1.180c997d.chunk.js.map",
   "runtime~main.js": "/lvbc-client/static/js/runtime~main.5ae0f865.js",
   "runtime~main.js.map": "/lvbc-client/static/js/runtime~main.5ae0f865.js.map",
-  "static/css/main.c1db9377.chunk.css.map": "/lvbc-client/static/css/main.c1db9377.chunk.css.map",
+  "static/css/main.20cea998.chunk.css.map": "/lvbc-client/static/css/main.20cea998.chunk.css.map",
   "static/media/Logo-horizontal-red.png": "/lvbc-client/static/media/Logo-horizontal-red.74da33af.png",
   "static/media/homepage.css": "/lvbc-client/static/media/hero-book.b3c87549.jpg",
   "index.html": "/lvbc-client/index.html",
-  "precache-manifest.5b95b54d64e921c4946e6884e1a337c4.js": "/lvbc-client/precache-manifest.5b95b54d64e921c4946e6884e1a337c4.js",
+  "precache-manifest.e1614b1105135ed00032384eac5ca29c.js": "/lvbc-client/precache-manifest.e1614b1105135ed00032384eac5ca29c.js",
   "service-worker.js": "/lvbc-client/service-worker.js"
 }
