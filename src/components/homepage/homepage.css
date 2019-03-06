@@ -11,14 +11,14 @@
 }
 
 .hero-image>h3{
-  font-size: 50px;
+  font-size: 60px;
   letter-spacing: 2px;
   color:rgb(64,64,64);
   margin-top: -80px;
   font-style: italic;
 }
 .hero-image>h5{
-  font-size:35px;
+  font-size:45px;
   font-style: italic;
 }
 .reading {
@@ -29,10 +29,30 @@
 
 @media(max-width: 800px){
   .hero-image>h3{
+    font-size: 45px;
+    padding: 0 20px;
+  }
+  .hero-image>h5{
+    font-size:35px;
+  }
+}
+
+@media(max-width: 450px){
+  .hero-image>h3{
     font-size: 35px;
     padding: 0 20px;
   }
   .hero-image>h5{
-    font-size:30px;
+    font-size:25px;
+  }
+}
+
+@media(max-width: 350px){
+  .hero-image>h3{
+    font-size: 30px;
+    padding: 0 10px;
+  }
+  .hero-image>h5{
+    font-size:20px;
   }
 }

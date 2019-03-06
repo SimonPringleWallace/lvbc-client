@@ -1,17 +1,6 @@
-.nav-wrapper {
+.navbar.navbar-expand-lg{
+text-align: center;
 }
-
-
-
-/* .donate{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  height:100px;
-  width:250px;
-  font-size: 30px
-} */
 
 .nav-link{
   text-decoration: none;
@@ -21,7 +10,7 @@
 
 .navbar-brand{
   width: 25%;
-  height:25%;
+  height:20%;
 }
 
 .navbar-brand>img{
@@ -32,15 +21,6 @@
 
 @media(max-width: 400px){
   .navbar-expand-lg {
-    display: u;
 
   }
 }
-
-/* .logo {
-  height: 76px;
-  width: 372px;
-  background-image: url('../../images/Logo-horizontal-red.png');
-  background-size: contain;
-  padding-bottom: 20px;
-} */

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link }  from 'react-router-dom';
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
-import './nav.css'
+import './nav.css';
 
 
 class NavBar extends React.Component {
@@ -21,7 +21,7 @@ class NavBar extends React.Component {
           </Navbar.Brand>
           {/*wrapping the below in a div to space the menu properly effects styling*/}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse className='mr-auto' id="responsive-navbar-nav">
           <Nav>
             <Nav.Link>
               <Link exact to='/about'>
