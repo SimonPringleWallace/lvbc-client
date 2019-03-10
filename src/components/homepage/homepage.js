@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './../shared/nav';
-import {HomePageAbout} from './homepageInfo';
+import { HomePageAbout } from './homepageInfo';
 import {PostPreview} from './posts';
 import './homepageInfo';
 import './homepage.css';

@@ -31,11 +31,11 @@ class NavBar extends React.Component {
                 </Link>
               </Nav.Link>
               <NavDropdown title="Volunteer" id="collasible-nav-dropdown">
-              <NavDropdown.Item>Find an Orientation</NavDropdown.Item>
-              <NavDropdown.Item>Meet our Tutors</NavDropdown.Item>
-              <NavDropdown.Item>About Tutoring with LVBC</NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link exact to='/orientation'>Find an Orientation</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link exact to='./about-tutoring'>About Tutoring with LVBC</Link></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item>Our Students</NavDropdown.Item>
+              <NavDropdown.Item><Link exact to='./about-our-students'>Our Students</Link></NavDropdown.Item>
               </NavDropdown>
               <Nav.Link>
                 <Link exact to='/events'>
