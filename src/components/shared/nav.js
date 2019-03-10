@@ -15,9 +15,9 @@ class NavBar extends React.Component {
         <Navbar collapseOnSelect expand="xl" bg="light" variant="light" fixed="top">
           <Navbar.Brand>
           {/*adding link effects styling*/}
-              {/*<Link exact to='/'>*/}
-                <img src={require('./../../images/Logo-horizontal-red.png')}/>
-              {/*</Link>*/}
+              <Link exact to='/'>
+                <div className='logo-container'></div>
+              </Link>
           </Navbar.Brand>
           {/*wrapping the below in a div to space the menu properly effects styling*/}
           <Container bsPrefix='icon-wrapper'>

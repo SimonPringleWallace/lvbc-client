@@ -23,6 +23,15 @@ justify-content: space-between;
   text-decoration-color: none;
 }
 
+.logo-container{
+  background-image: url('./../../images/Logo-horizontal-red.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 300px;
+}
+
 .navbar-brand{
   width: 25%;
   height:20%;
