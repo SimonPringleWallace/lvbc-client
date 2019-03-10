@@ -12,7 +12,7 @@ class NavBar extends React.Component {
 
   render () {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
+        <Navbar collapseOnSelect expand="xl" bg="light" variant="light" fixed="top">
           <Navbar.Brand>
           {/*adding link effects styling*/}
               {/*<Link exact to='/'>*/}
@@ -20,8 +20,10 @@ class NavBar extends React.Component {
               {/*</Link>*/}
           </Navbar.Brand>
           {/*wrapping the below in a div to space the menu properly effects styling*/}
+          <Container bsPrefix='icon-wrapper'>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse className='mr-auto' id="responsive-navbar-nav">
+        </Container>
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
             <Nav.Link>
               <Link exact to='/about'>
@@ -45,13 +47,11 @@ class NavBar extends React.Component {
                  Contact Us
                  </Link>
               </Nav.Link>
-          </Nav>
-          <Nav>
-            <Nav.Link>
-            <Link exact to='/donate'>
-             Donate
-             </Link>
-            </Nav.Link>
+              <Nav.Link>
+              <Link exact to='/donate'>
+              Donate
+              </Link>
+              </Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Navbar>

@@ -7,7 +7,7 @@
   background-image: url('../../images/hero-book.jpg');
   background-size: cover;
   background-position: center;
-  height: 650px;
+  height: 692px;
 }
 
 .hero-image>h3{
@@ -25,6 +25,12 @@
   background-image: url('../../images/adult-reader-40.jpg');
   background-size: cover;
   background-position: center;
+}
+
+@media(min-width:1900px){
+  .hero-image{
+    height:1080px;
+  }
 }
 
 @media(max-width: 800px){
