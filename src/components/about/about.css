@@ -1,0 +1,64 @@
+.about-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-container>p{
+  text-align: center;
+  margin: 100px 0 0 20px;
+  width: 600px;
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+.work-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.work-container>div>p{
+  text-align: right;
+  line-height: 1.5;
+  margin-top: 60px;
+  font-size: 25px;
+  width: 600px
+}
+
+.work-container-text{
+  margin-top: -10px;
+  text-align: right;
+  padding: 0 40px 0 0;
+
+}
+
+.child-book{
+  background-image: url('../../images/book-child.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height:400px;
+}
+
+
+.about-image-container>h1{
+  font-size: 58px;
+  color: #F8F8FF;
+  text-align: left;
+  margin: 430px 0 0 20px;
+}
+
+.about-image-container{
+  margin-top: 90px;
+  height:600px;
+  background-image: url('../../images/book-holding.jpg');
+  background-size: cover;
+  background-position: center;
+}
