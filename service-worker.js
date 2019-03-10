@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/lvbc-client/precache-manifest.e1614b1105135ed00032384eac5ca29c.js"
+  "/lvbc-client/precache-manifest.5559b6154933fdd82ff9ee3abc037c5b.js"
 );
 
 workbox.clientsClaim();
