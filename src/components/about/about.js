@@ -24,6 +24,9 @@ export const About = () => (
           </p>
         </div>
       </div>
+      <div className='get-involved'>
+    
+      </div>
     </div>
   </div>
 

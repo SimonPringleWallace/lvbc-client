@@ -7,10 +7,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-image: url('../../images/adult-article-40.jpg');
+  background-size: cover;
 }
 
 .text-container>p{
-  text-align: center;
+  text-align: left;
   margin: 100px 0 0 20px;
   width: 600px;
   line-height: 1.5;
@@ -22,7 +24,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 100px;
-  background-color: rgba(204, 85, 0,.3);
+  background-color: rgba(255, 170, 114);
 }
 
 .work-container>div>p{
@@ -46,6 +48,10 @@
   background-repeat: no-repeat;
   width: 600px;
   height:400px;
+}
+
+.get-involved{
+  height: 600px;
 }
 
 
