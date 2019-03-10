@@ -22,6 +22,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 100px;
+  background-color: rgba(204, 85, 0,.3);
 }
 
 .work-container>div>p{
@@ -33,7 +34,7 @@
 }
 
 .work-container-text{
-  margin-top: -20px;
+  margin-top: -5px;
   text-align: right;
   padding: 0 40px 0 0;
 
