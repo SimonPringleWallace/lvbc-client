@@ -5,6 +5,7 @@ import {PostPreview} from './posts';
 import './homepageInfo';
 import './homepage.css';
 import { CounterBlock } from '../shared';
+import { Footer } from '../shared';
 
 class Homepage extends React.Component {
   constructor() {
@@ -15,6 +16,10 @@ class Homepage extends React.Component {
         excerpts: [],
         contents:[]
     }
+  }
+
+  componentDidMount() {
+      window.scrollTo(0,0);
   }
 
 // generate posts based off of the data recieved in componentDidMount
@@ -41,6 +46,7 @@ class Homepage extends React.Component {
          <CounterBlock/>
          <HomePageAbout />
          </div>
+         <Footer />
          {this.postGenerator()}
        </React.Fragment>
      );

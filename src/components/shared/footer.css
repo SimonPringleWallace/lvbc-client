@@ -1,0 +1,27 @@
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0 40px 20px;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: rgba(124, 10, 2,.4);
+}
+
+.footer-container > div {
+  text-align: left;
+  padding: 10px;
+}
+
+.footer-container > div > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-container > div > ul > li > img {
+  height: 70px;
+  margin: 5px;
+}
+
+#contact {
+  margin-top:30px;
+}

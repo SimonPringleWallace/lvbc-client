@@ -6,10 +6,6 @@ import './nav.css';
 
 class NavBar extends React.Component {
 
-  handleItemClick = () => (
-    console.log('foo')
-  )
-
   render () {
     return (
         <Navbar collapseOnSelect expand="xl" bg="light" variant="light" fixed="top">
